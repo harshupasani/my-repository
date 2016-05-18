@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ebebfc"
+    android:layout_below="@+id/tool_bar">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:text="This is ScrollView"/>
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="This is my Layout"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Set Title"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Choice 1"/>
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Choice 2"
+            />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Choice 3"/>
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Choice 4"/>
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/batman"
+        android:id="@+id/image"
+
+        />
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clickhere"
+        />
+
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </DatePicker>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_array">
+
+    </Spinner>
+
+
+</LinearLayout>
+
+
+
+
+</ScrollView>
